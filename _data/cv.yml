@@ -2,71 +2,106 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Gunjan Sethi
     - name: Date of Birth
-      value: 14th March 1879
+      value: 24th September 1996
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
+- title: Skills
+  type: map
+  contents:
+    - name: Languages
+      value: Python3, C++, MATLAB
+    - name: Libraries
+      value: NumPy, OpenCV, Open3D, SciPy, PyDicom
+    - name: ML Frameworks
+      value: PyTorch, Tensorflow
+    - name: ML Ops
+      value: Tensorboard, Google Colab, Jupyter
+    - name: Deployment
+      value: Git, Docker
+ 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Masters in Robotic Systems Development
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: NOW
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA 3.9/4.0 
+        - Electives - Computer vision, Deep Learning, Geometric Vision
+    - title: Bachelors in Technology, Computer Science and Engineering
+      institution: REVA University, Bangalore, India
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 8.87/10
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineering Intern, Deep LiDAR
+      institution: Argo AI, Pittsburgh PA
+      year: May '22 - Aug '22
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Proposed a probabilistic 3D object detection pipeline for estimating uncertainties in bounding box detections; performed in -depth literature review; presented to the team
+        - Developed loss functions and model architecture upgrades to optimize and learn parameters for direct modeling of bounding box parameters as distributions using Tensorflow
+        - Created frame-wise BEV and pointcloud visualizations for bounding box parameter uncertainties as ellipsoids, cuboids, and arcs using Open3D and Python3
+    
+    - title: Computer Vision Engineer
+      institution: Comofi MedTech, Bangalore, India
+      year: Jan '21 - Jul '21
       description:
-        - Description 1.
-        - Description 2.
+        - Proposed and implemented an ensemble method for 3D segmentation algorithm in Python utilizing connected components; improved performance by 20%
+        - Implemented region-growing algorithm for segmentation of organs on CT scan (3D) data with 85% accuracy in Python
+        - Built a pointcloud preprocessing pipeline with Intel Realsense, PCL and ROS in C++ for filtering and downsampling incoming pointcloud data
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Software Engineer
+      institution: MagikEye Inc, Bangalore, India
+      year: Jul '20 - Dec '20
+      description: 
+        - Deployed web service on Amazon EC2 with Docker containers as SLURM nodes for customer support and testing
+        - Conducted performance optimization on RaspberryPi Zero using QPULib by enabling non-blocking GPU load and stores for repeated mathematical operations in convolutions
+        - Wrote production-level, low-latency Python and C++ ROS packages for depth sensor; extended existing SDK to support ROS
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Product Engineer
+      institution: QtPi Robotics, Bangalore, India
+      year: Aug '18 - Jun '20
       description:
+        - Led a team of 4 for development of an autonomous scaled-down simulation of a digital supply chain utilizing ESP32, RFID, IR sensors, Firebase, and an interactive dashboard for Robert Bosch
+        - Conceptualized design elements for website's UI/UX on AdobeXD to highlight key product USPs with, increasing customer engagement and session duration
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="/projects/1_project/">Autonomous Reaming for Hip Replacement Surgery</a>
+      year: Sep '21 - Dec '22
+      description: 
+        - Led the development of Perception and Sensing subsystem- implemented pose tracking and error detection for dynamic compensation of robot arm using Atracsys SpryTrack in C++, integrated with Planning and Controls via ROS
+        - Developed a GUI using Python and Open3D for manipulating pointclouds, displaying system metrics; integrated with all subsystems
+        - Managed systems engineering and project management efforts between all stakeholders with regular communication, updates and presentations
+
+    - title: <a href="/projects/2_project/"> Deformable SuperPoint </a>
+      year: Nov '22 - Dec '22
+      description: 
+        - Proposed use of deformable convolutions for improved interest point detection for learning-based detectors
+        - Implemented deformable convolution layer; integrated with SuperPoint's VGG-style encoder
+        - Improved interest point detector repeatabilty score on MSCOCO by 7.4% within 1/2 number of iterations; showed boosted performance in homography estimation and SfM 
+
+- title: Part-Time Work
+  type: time_table
+  contents:
+    - title: Researcher
+      institution: R-PAD Lab, CMU, Pittsburgh PA
+      year: Sep '22 - Now
+      description:
+        - Performing literature review on keypoints-based representations for object detection in 2D and 3D, adding uncertainty estimates to predictions
+    
+    - title: Researcher
+      institution: Spatial Experience Lab, School of Design, CMU
+      year: May '22 - Aug '22
+      description:
+        - Integrated Optitrack Motive Camera with TouchDesigner, Derivative 
 
 - title: Honors and Awards
   type: time_table
@@ -91,7 +126,3 @@
         - Description 1.
         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

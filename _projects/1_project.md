@@ -1,80 +1,34 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Autonomous Reaming for Total Hip Replacement Surgery
+description: MRSD Capstone Project
+img: assets/img/project_arthur.jpg
 importance: 1
-category: work
+category: team
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+September 2021 - December 2022 | 
+Software Engineering Lead
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p><a href="https://mrsdprojects.ri.cmu.edu/2022teamc/">official website</a></p>
+<p><a href="https://youtu.be/LRdVuEbDkSQ">youtube video</a></p> 
+<p><a href="https://mrsdprojects.ri.cmu.edu/2022teamc/wp-content/uploads/sites/56/2022/12/TeamC_FinalReport-min.pdf">final report</a></p> 
+<p><a href="https://github.com/hipsdontlie">code</a></p> 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+ARTHuR is a fully autonomous robotic arm aimed at performing acetabular reaming with high accuracy, eliminating the need of surgeons to use intuition to correctly position/angle the reamer, during hip replacement surgery.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_arthur_poster.svg" title="project poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Final project poster
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Total Hip Arthroplasty (THA) Surgery as performed today, involves reaming of the acetabulum (pelvis) to remove damaged bone from the hip joint. One of the most crucial factors in determining a successful surgery is the accuracy of acetabular cup position and orientation placement. The correct position and orientation avoids future dislocation of the hip joint and increases patient comfort. Therefore, it is imperative that surgeons know exactly what orientation and depth they are reaming the acetabulum to.
 
+However, most surgeons cannot see the site of surgery during reaming, leading to malpositioned cups. In fact, it is estimated that less than 50% of THA outcomes are within surgical safe zones (Lewinnek Safe Zone). While there are modern robotic systems that can help mitigate this problem, all increase the time of surgery and lack robustness during surgery.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+To meet this need, our team proposes `ARTHuR (Autonomous Reaming for Total Hip Replacement) Robot`. 
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
