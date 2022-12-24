@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I'm a Robotics graduate student at Carnegie Mellon University, currently pursuing the [Masters in Robotic Systems Development (MRSD)](https://mrsd.ri.cmu.edu/) program. As a part-time researcher at the [Robots Perceiving and Doing Lab, CMU](https://r-pad.github.io/), I work on alternate representations to bounding boxes for 3D object detection.
 
-I'm seeking full-time positions in Computer Vision and Machine Learning, starting June 2023. I am primarily interested in exploring deep leanring-based methods that enable robots to perceive and understand the world around them.
+I'm seeking full-time positions in Computer Vision and Machine Learning, starting June 2023. I am primarily interested in exploring deep learning-based methods that enable robots to perceive and understand the world around them.
