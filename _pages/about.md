@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Roboticist, Researcher<a href='https://mrsd.ri.cmu.edu/'>Carnegie Mellon University</a>
+subtitle: Roboticist, Researcher at <a href='https://mrsd.ri.cmu.edu/'>Carnegie Mellon University</a>
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Robotics graduate student at Carnegie Mellon University, currently pursuing the [Masters in Robotic Systems Development (MRSD)](https://mrsd.ri.cmu.edu/) program. As a part-time researcher at the [Robots Perceiving and Doing Lab, CMU](https://r-pad.github.io/), I work on alternate representations to bounding boxes for 3D object detection.
+Hi! I'm a Robotics graduate student at Carnegie Mellon University, currently pursuing the [Masters in Robotic Systems Development (MRSD)](https://mrsd.ri.cmu.edu/) program. As a part-time researcher at the [Robots Perceiving and Doing Lab, CMU](https://r-pad.github.io/), I work on alternate representations to bounding boxes for 3D object detection.
 
 I am primarily interested in exploring deep leanring-based methods that enable robots to perceive and understand the world around them.
 
