@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ri.cmu.edu/'>The Robotics Institute, Carnegie Mellon University</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://mrsd.ri.cmu.edu/'>Masters in Robotic Systems Development</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>gunjans@andrew.cmu.edu</p>
+    <p>Pittsburgh, PA 15206</p>
+    <p>The Robotics Institute, CMU</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
