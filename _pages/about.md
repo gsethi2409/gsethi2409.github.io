@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.ri.cmu.edu/'>The Robotics Institute, Carnegie Mellon University</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
