@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://mrsd.ri.cmu.edu/'>Masters in Robotic Systems Development</a>.
+subtitle: Roboticist, Researcher<a href='https://mrsd.ri.cmu.edu/'>Carnegie Mellon University</a>
 
 profile:
   align: right
@@ -11,15 +11,15 @@ profile:
   address: >
     <p>gunjans@andrew.cmu.edu</p>
     <p>Pittsburgh, PA 15206</p>
-    <p>The Robotics Institute, CMU</p>
+    <p>Robotics Institute, CMU</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Robotics graduate student at Carnegie Mellon University, currently pursuing the [Masters in Robotic Systems Development (MRSD)](https://mrsd.ri.cmu.edu/) program. As a part-time researcher at the [Robots Perceiving and Doing Lab, CMU](https://r-pad.github.io/), I work on alternate representations to bounding boxes for 3D object detection.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am primarily interested in exploring deep leanring-based methods that enable robots to perceive and understand the world around them.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm seeking full-time positions in Computer Vision and Machine Learning, starting June 2023. 
