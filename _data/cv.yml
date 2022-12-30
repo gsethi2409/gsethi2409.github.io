@@ -19,8 +19,8 @@
       value: PyTorch, Tensorflow
     - name: ML Ops
       value: Tensorboard, Google Colab, Jupyter
-    - name: Deployment
-      value: Git, Docker
+    - name: Deployment and Others
+      value: Git, Docker, ROS, JIRA
  
 - title: Education
   type: time_table
@@ -88,7 +88,7 @@
         - Implemented deformable convolution layer; integrated with SuperPoint's VGG-style encoder
         - Improved interest point detector repeatabilty score on MSCOCO by 7.4% within 1/2 number of iterations; showed boosted performance in homography estimation and SfM 
 
-- title: Part-Time Work
+- title: Research Experience
   type: time_table
   contents:
     - title: Researcher
