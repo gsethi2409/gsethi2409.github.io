@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Roboticist, Researcher at <a href='https://mrsd.ri.cmu.edu/'>Carnegie Mellon University</a>
+subtitle: Roboticist, ML Researcher at <a href='https://www.cnh.com/'>CNH Industrial</a>
 
 profile:
   align: right
