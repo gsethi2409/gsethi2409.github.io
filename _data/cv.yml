@@ -17,29 +17,22 @@
       value: NumPy, OpenCV, Open3D, SciPy, PyDicom
     - name: ML Frameworks
       value: PyTorch, Tensorflow
-    - name: ML Ops
-      value: Tensorboard, Google Colab, Jupyter
-    - name: Deployment and Others
-      value: Git, Docker, ROS, JIRA
- 
-- title: Education
-  type: time_table
-  contents:
-    - title: Masters in Robotic Systems Development
-      institution: Carnegie Mellon University, Pittsburgh, PA
-      year: NOW
-      description:
-        - GPA 3.9/4.0 
-        - Electives - Computer vision, Deep Learning, Geometric Vision
-    - title: Bachelors in Technology, Computer Science and Engineering
-      institution: REVA University, Bangalore, India
-      year: 2018
-      description:
-        - GPA 8.87/10
+    - name: ML Ops and Deployment
+      value: Tensorboard, WandB, TensorRT, ONNX, CUDA
+    - name: Others
+      value: Git, Docker, Kubernetes, ROS/ROS2, JIRA, AWS
 
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Research Engineer
+      institution: CNH Industrial, Boston MA
+      year: June '23 - Present
+      description:
+        - Proposed and led a team of 3 to prototype/implement a multimodal (camera + LiDAR) semantic segmentation model for terrain traversability estimation; iterated architectures and trained PointTransformerv3-based model on in-house simulation and real dataset to achieve 0.815 mIOU
+        - Productionized and deployed a real-time, multi-threaded inference engine service for an image-based driveable area segmentation model using TensorRT, C++; performed end-to-end testing and documentation
+        - Developed a C++ service for communication between ISOBUS/CAN and publisher/subscriber middleware on a real-time system; tested and supported integration efforts on and off-field
+  
     - title: Software Engineering Intern, Deep LiDAR
       institution: Argo AI, Pittsburgh PA
       year: May '22 - Aug '22
@@ -70,6 +63,21 @@
       description:
         - Led a team of 4 for development of an autonomous scaled-down simulation of a digital supply chain utilizing ESP32, RFID, IR sensors, Firebase, and an interactive dashboard for Robert Bosch
         - Conceptualized design elements for website's UI/UX on AdobeXD to highlight key product USPs with, increasing customer engagement and session duration
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Masters in Robotic Systems Development
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2023
+      description:
+        - GPA 4.17/4.33 
+        - Electives - Computer vision, Deep Learning, Geometric Vision, Multimodal ML, 3D Learning
+    - title: Bachelors in Technology, Computer Science and Engineering
+      institution: REVA University, Bangalore, India
+      year: 2018
+      description:
+        - GPA 8.87/10
 
 - title: Projects
   type: time_table
