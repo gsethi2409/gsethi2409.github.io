@@ -9,15 +9,15 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>gunjans@andrew.cmu.edu</p>
-    <p>Pittsburgh, PA 15206</p>
-    <p>Robotics Institute, CMU</p>
+    <p>gunjans2409@gmail.com</p>
+    <p>Boston, MA</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a Robotics graduate student at Carnegie Mellon University, currently pursuing the [Masters in Robotic Systems Development (MRSD)](https://mrsd.ri.cmu.edu/) program. As a part-time researcher at the [Robots Perceiving and Doing Lab, CMU](https://r-pad.github.io/), I work on alternate representations to bounding boxes for 3D object detection.
+Hi! I'm currently building autonomous agriculture systems for farmers at CNH Industrial. My interests lie at the intersection
+of software, machine learning and robotics. I enjoy leading and accelrating projects end-to-end, from literature review to deployment!
 
-I'm `seeking full-time positions` in Computer Vision and Machine Learning, `starting June 2023`. I am primarily interested in exploring deep learning-based methods that enable robots to perceive and understand the world around them.
+I'm happy to connect!
